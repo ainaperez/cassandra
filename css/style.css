@@ -1,0 +1,192 @@
+/*Section styles*/
+body{
+    width:100%;
+    }
+
+#top-head{
+    background-color: black;
+    margin: 0;
+    padding: 15px 0 15px 0;
+   }
+
+#header-title{
+    width: 60%;
+    background-image: url('../img/bg-img-header.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    margin: auto;
+    }
+
+#nav-bar{
+    border-bottom: 2px solid orangered;
+    }
+
+#ul-nav{
+    text-align: center;
+    list-style: none;
+    padding: 5px 0 5px 0;;
+    margin: 0;
+}
+
+#ul-nav li {
+    margin: auto;
+    display: inline-block;
+    
+}
+
+#ul-nav li a{
+    color: rgb(27, 27, 27);
+    text-decoration: none;
+    font-family: Helvetica,Arial, sans-serif;
+    font-size: smaller;
+    padding: 10px;
+
+}
+
+#ul-nav li:hover {
+    color: rgb(27, 27, 27);
+    font-weight: bolder;
+
+}
+
+#main-page{
+    width:60%;
+    margin: 0 auto;
+
+}
+
+#trajectoria-autor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto 30px auto;
+    padding: 0 5% 0 5%;
+}
+
+footer{
+    width: 100%;
+    text-align: center; 
+    border-top: 2px solid lightgrey;
+}
+
+
+/*General styles*/
+
+h1{
+    font-family: Helvetica, Arial, sans-serif ;
+    color:  rgb(59, 59, 59);   
+}
+
+h2{
+    font-family: Helvetica, Arial, sans-serif ;
+    color: rgb(59, 59, 59);  
+}
+
+p{
+    font-family: Georgia, Times, serif ;
+    font-size: 14px ;
+    line-height: 20px;
+    color: rgb(59, 59, 59) ;
+}
+
+a{
+    color: orangered;
+}
+
+a:hover{
+    color: gray;
+}
+
+li{
+    margin: 0 0 5px 0;
+    font-family: Georgia, Times, serif;
+    font-size: 14px ;
+    line-height: 20px;
+    color: rgb(59, 59, 59) ;
+}
+
+figcaption{
+    font-family: Helvetica, Arial, sans-serif ;
+    font-size: 10px;
+}
+
+
+/*Specific styles*/
+
+#salvant-cassandra{
+    margin-right: 40%;
+}
+#head-h1{
+    color: white;
+    margin-top: 0;
+}
+
+#head-h2{
+    color:white; 
+    margin: 0;
+}
+
+#resum{
+    font-family: Helvetica,Arial, sans-serif;
+    font-size: 20px;
+    color: orangered;
+    width: 90%;
+}
+
+a.link-icon {
+    background: url('../img/external_link.svg') right no-repeat;
+    padding-right: 18px;
+
+}
+
+.quote{
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+    padding-left: 2%;
+    border-left: 2px solid grey;
+
+}
+
+.end-page{
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: smaller;
+}
+
+/*image styles*/
+
+#edwin{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+#img-edwin{
+    width: 75%;
+    padding: 10px;
+}
+
+#cassandra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+#img-cassandra{
+    width: 50%;
+    padding: 15px;
+}
+
+
+
+
+
+  
+
+
+
+
+
